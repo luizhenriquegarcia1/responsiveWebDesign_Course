@@ -16,12 +16,12 @@ h1, p {
 }
 
 h1 {
-    margin-right: 20%;
+    margin-left: 120;
 }
 
 p {
     font-size: 1.5em;
-    margin-right: 20%;
+    margin-left: 100;
 }
 
 form {
