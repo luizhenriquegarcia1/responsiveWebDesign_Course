@@ -1,0 +1,76 @@
+body {
+    color: black;
+    top: 0;
+    height: 100%;
+    width: 100vh;
+    margin: 0;
+    font-size: 20px;
+    background-image: url(https://mrwallpaper.com/images/hd/jinchuriki-naruto-4k-x4hkkoiafno7wh1t.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, p {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h1 {
+    margin-right: 20%;
+}
+
+p {
+    font-size: 1.5em;
+    margin-right: 20%;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 2em;
+    margin-right: 75%;
+    margin-left: 25%;
+    background-color: rgba(0, 255, 255, 0.8);
+}
+
+label {
+    display: block;
+    margin: 0.5rem;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: black;
+    min-width: 300px;
+    background-color: rgb(230, 180, 0);
+}
+
+input, textarea {
+    background-color: rgb(70, 235, 235);
+    border: 1px solid black;
+    color: black;
+}

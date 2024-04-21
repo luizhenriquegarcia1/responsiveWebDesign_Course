@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Naruto Quizz</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">NarutoQuizz</h1>
+        <p id="description">Are you really a Naruto fan?</p>
+        <fieldset id="container">
+            <form action="https://naruto.com.br" id="survey-form" method="post">
+                <div>
+                    <label for="name" id="name-label">What's your name? <input type="text" name="personal-information" id="name" placeholder="Type your name >>" required></label>
+                </div>
+                <div>
+                    <label for="email" id="email-label">Type your email to more information: <input type="email" name="personal-information" id="email" placeholder="sasukeuchiha@gmail.com" required></label>
+                </div>
+                <div>
+                    <label for="number" id="number-label">Age? <input type="number" name="personal-information" id="number" min="8" max="120" placeholder="16"></label>
+                </div>
+                <label for="favorite-char">What's your favorite character?
+                    <select name="favorite-char" id="dropdown">
+                        <option value="">Select your favorite character</option>
+                        <option value="1">Naruto</option>
+                        <option value="2">Sasuke</option>
+                        <option value="3">Sakura</option>
+                        <option value="4">Kakashi</option>
+                        <option value="5">Minato</option>
+                        <option value="6">Other</option>
+                    </select>
+                </label>
+                <legend>What's your favorite saga?</legend>
+                <div>
+                    <label for="classic"><input type="radio" name="saga" id="classic" value="1" class="inline" checked>Classic</label>
+                    <label for="shippuden"><input type="radio" name="saga" id="shippuden" value="2" class="inline">Shippuden</label>
+                    <label for="boruto-gen"><input type="radio" name="saga" id="boruto-gen" value="3" class="inline">Boruto Generation</label>
+                </div>
+                <legend>What jutsu would you use?</legend>
+                <div>
+                    <label for="ninjutsu"><input type="checkbox" name="jutsu" id="ninjutsu" value="1" class="inline" checked>Ninjutsu</label>
+                    <label for="genjutsu"><input type="checkbox" name="jutsu" id="genjutsu" value="2" class="inline">Genjutsu</label>
+                    <label for="taijutsu"><input type="checkbox" name="jutsu" id="taijutsu" value="3" class="inline">Taijutsu</label>
+                </div>
+                <legend>Tell us which episode you liked the most:</legend>
+                <textarea name="comment-ep" id="favorite-ep" cols="30" rows="3" placeholder="Type Here..."></textarea>
+                <button id="submit" value="submit">Submit</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
