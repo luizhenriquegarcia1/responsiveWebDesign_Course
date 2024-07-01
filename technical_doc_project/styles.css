@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+@media (min-width=356px) and (max-width=758px) {
+
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.main-section {
+    padding: 20px;
+    margin-bottom: 110px;
+}
